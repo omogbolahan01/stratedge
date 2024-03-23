@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: inter;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  margin: 0 2rem 0 5rem;
+  overflow-x: hidden;
+}
+
+.swiper-slide {
+  text-align: center;
+  /* font-size: 18px; */
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 2rem; */
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-swiper {
+  background-color: #fbfbfb;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 4.5rem;
+}
+.swiper-img {
+  width: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.swiper-img img {
+  width: 100%;
+  object-fit: contain;
+}
+.star-area {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.star-img {
+  width: 1rem;
+}
+.star-img img {
+  width: 100%;
+  object-fit: contain;
+}
+.text-1 h2 {
+  font-family: Playfair Display;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.text-1 h3 {
+  font-family: Inter;
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+.text-1 p {
+  font-family: Inter;
+  font-size: 0.85rem;
+  font-weight: 400;
+}
