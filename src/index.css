@@ -991,11 +991,7 @@ textarea {
   font-weight: 600;
   color: #000000;
 }
-.career2 {
-  padding-top: 3rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
+
 .unleash-text {
   align-items: center;
   justify-content: center;
@@ -1135,7 +1131,7 @@ textarea {
 .career2 {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 4rem;
 }
 .contact-area {
   max-width: 1400px;
@@ -1145,5 +1141,5 @@ textarea {
 .project-home {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 2rem 4rem;
 }
