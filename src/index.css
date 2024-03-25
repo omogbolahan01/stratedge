@@ -1118,3 +1118,28 @@ textarea {
   font-family: Playfair Display;
   font-weight: 600;
 }
+.home-all {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.about-all {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.career2 {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.contact-area {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.project-home {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
