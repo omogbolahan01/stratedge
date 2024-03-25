@@ -1117,11 +1117,15 @@ textarea {
   font-size: 1.4rem;
   font-family: Playfair Display;
   font-weight: 600;
-}
-.home-all {
   max-width: 1400px;
   margin: 0 auto;
   padding: 2rem 0;
+}
+
+.home-all {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
 }
 .about-all {
   max-width: 1400px;
