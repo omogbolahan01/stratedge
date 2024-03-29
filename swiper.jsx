@@ -15,13 +15,27 @@ export default function App() {
   return (
     <>
       <Swiper
-        slidesPerView={2.4}
+        // slidesPerView={2.4}
         spaceBetween={30}
         pagination={{
           clickable: true,
         }}
         modules={[Pagination]}
         className="mySwiper"
+        breakpoints={{
+          // when window width is <= 640px
+          640: {
+            slidesPerView: 1,
+          },
+          // when window width is <= 768px
+          768: {
+            slidesPerView: 2,
+          },
+          // when window width is <= 1024px
+          1024: {
+            slidesPerView: 2.4,
+          },
+        }}
       >
         <SwiperSlide>
           <div className="text-swiper">

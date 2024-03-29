@@ -330,8 +330,12 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-left: 15rem;
-  padding-right: 15rem;
+  /* padding-left: 15rem;
+  padding-right: 15rem; */
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 .quotation-area h3 {
   font-family: Playfair Display;
@@ -758,6 +762,24 @@ footer {
   color: #ffffff;
   padding-right: 20rem;
 }
+.get-two {
+  padding-top: 3rem;
+}
+.get-two h3 {
+  font-family: Playfair Display;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  color: #ffffff;
+}
+.get-two p {
+  font-family: Inter;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #ffffff;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+}
 label {
   width: 30rem;
 }
@@ -926,9 +948,18 @@ textarea {
   gap: 4rem;
 }
 .iabout {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
+.iiii {
+  width: 100%;
+}
+.iiii img {
+  width: 100%;
+  object-fit: contain;
+}
+
 .iiabout h4 {
   font-family: Inter;
   font-size: 0.7rem;
@@ -978,6 +1009,13 @@ textarea {
   font-weight: 400;
 
   color: #000000;
+}
+.vision-2 {
+  width: 100%;
+}
+.vision-2 img {
+  width: 100%;
+  object-fit: contain;
 }
 .vision-text {
   justify-content: center;
@@ -1109,6 +1147,12 @@ textarea {
   align-items: center;
   padding-bottom: 4rem;
 }
+.price-image {
+  width: 30%;
+}
+.price-image img {
+  width: 100%;
+}
 .team--j {
   font-size: 1.4rem;
   font-family: Playfair Display;
@@ -1142,4 +1186,691 @@ textarea {
   max-width: 1400px;
   margin: 0 auto;
   padding: 2rem 4rem;
+}
+@media screen and (max-width: 1300px) {
+  .first-text p {
+    padding-right: 35rem;
+  }
+  .about-text2 {
+    top: 17rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+  }
+  .video-area h3 {
+    padding-left: 16rem;
+    padding-right: 16rem;
+  }
+  .services-text h3 {
+    padding-right: 40rem;
+  }
+  .grid-one {
+    width: 100%;
+  }
+  .grid-one img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .text-area2 {
+    top: 30rem;
+  }
+  .mix-text {
+    width: 25%;
+    height: 24rem;
+  }
+  .mix-text h3 {
+    margin-bottom: 9rem;
+    padding-right: 2.5rem;
+  }
+
+  .mix-only211 h3 {
+    margin-bottom: 4.5rem;
+    padding-right: 1rem;
+  }
+  .img-only {
+    width: 25%;
+    height: 100%;
+  }
+  .img-only img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .mix-only2 img {
+    width: 100%;
+  }
+  .mix-only1 h3 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .img-only img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .cvcv {
+    width: 25%;
+    padding-top: 1.5rem;
+  }
+
+  .mix-only21 {
+    width: 25%;
+  }
+  .mix-only212 img {
+    width: 100%;
+  }
+  .form-text h3 {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+  .unleash-text h3 {
+    padding: 0.8rem 18rem 1.3rem;
+  }
+  .unleash-text p {
+    padding: 0.8rem 17rem 1.3rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .first-text p {
+    padding-right: 25rem;
+  }
+  .partners-second {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .partners {
+    grid-template-columns: 45% 55%;
+  }
+  .ddd {
+    width: 3.5rem;
+  }
+  .ddd img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .about-text {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-text2 {
+    top: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .video-area h3 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .services-text h3 {
+    padding-right: 25rem;
+  }
+  .text-area2 {
+    top: 22rem;
+  }
+  .career-text h3 {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .mix-text {
+    width: 25%;
+    height: 18.5rem;
+  }
+  .mix-text h3 {
+    margin-bottom: 5rem;
+    padding-right: 2.5rem;
+  }
+
+  .mix-only211 h3 {
+    margin-bottom: 2.5rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+  }
+  .mix-only211 p {
+    font-size: 0.72rem;
+  }
+  .img-only {
+    width: 25%;
+    height: 100%;
+  }
+  .img-only img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .mix-only2 img {
+    width: 100%;
+  }
+  .mix-only1 h3 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .img-only img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .cvcv {
+    padding-top: 0.8rem;
+  }
+  .mix-only1 {
+    padding: 0;
+  }
+  .mix-only21 {
+    width: 25%;
+  }
+  .mix-only212 img {
+    width: 100%;
+  }
+  .faq-area h3 {
+    padding-right: 1rem;
+  }
+  .form-text h3 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .geet p {
+    padding-right: 2rem;
+  }
+
+  .service-text p {
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+  .unleash-text h3 {
+    padding: 0.8rem 12rem 0;
+  }
+  .unleash-text p {
+    padding: 0.8rem 12rem 1.2em;
+  }
+  label {
+    width: 25rem;
+  }
+  input,
+  textarea {
+    width: 25rem;
+  }
+  .form--input {
+    width: 25rem;
+  }
+  .bbb {
+    width: 25rem;
+  }
+  .bbb button {
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .first-text p {
+    padding-right: 10rem;
+  }
+  .partners-first h3 {
+    padding-right: 1.5rem;
+  }
+  .about-text {
+    margin-right: 2rem;
+    gap: 1rem;
+  }
+  .about-text2 h3 {
+    font-size: 1rem;
+    padding-top: 0.2rem;
+    padding-right: 0.2rem;
+  }
+  .about-text2 P {
+    font-size: 0.6rem;
+  }
+  .video-area h3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .empower-one {
+    grid-template-columns: 1fr 1fr;
+  }
+  .empowa-1 h3 {
+    font-size: 1.8rem;
+  }
+  .empowa-2 {
+    font-size: 0.8rem;
+  }
+  .services-text h3 {
+    padding-right: 15rem;
+  }
+  .grid-two h4 {
+    font-size: 2.8rem;
+  }
+  .grid-two h3 {
+    font-size: 1.5rem;
+  }
+  .circle-part {
+    margin-top: 4rem;
+  }
+  .text-area2 {
+    top: 17.5rem;
+  }
+  .testimonies {
+    grid-template-columns: 75% 25%;
+  }
+  .testi-one h3 {
+    padding-right: 3rem;
+  }
+  .testi-two {
+    padding-left: 1rem;
+  }
+  .career-text h3 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .mix-text {
+    height: 20rem;
+  }
+  .mix-text p {
+    font-size: 0.7rem;
+  }
+  .apply-area2 p {
+    font-size: 0.8rem;
+  }
+  .faq-area {
+    grid-template-columns: 50% 50%;
+  }
+  .form-text h3 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .form-grid1 {
+    gap: 1rem;
+  }
+  .geet h2 {
+    font-size: 1.3rem;
+  }
+  label {
+    width: 20rem;
+  }
+  input,
+  textarea {
+    width: 20rem;
+  }
+  .form--input {
+    width: 20rem;
+  }
+  .bbb {
+    width: 20rem;
+  }
+  .bbb button {
+    width: 20rem;
+  }
+  .contact-first {
+    display: flex;
+    flex-direction: column;
+  }
+  .unleash-text h3 {
+    padding: 0.5rem 3rem 0;
+  }
+  .unleash-text p {
+    padding: 0.5rem 3rem 0;
+  }
+  .role-flex {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .about-first {
+    gap: 2rem;
+  }
+  .about-first h3 {
+    font-size: 2rem;
+  }
+  .iiabout h3 {
+    font-size: 1.8rem;
+  }
+  .iiabout p {
+    font-size: 0.7rem;
+  }
+  .vision-1 h3 {
+    font-size: 1.8rem;
+  }
+  .vision-1 p {
+    font-size: 0.7rem;
+  }
+  .vision-text {
+    padding: 2rem 3rem 4rem;
+  }
+  .vision-text h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 790px) {
+  .about-text2 {
+    top: 6.5rem;
+  }
+  .about-text2 h3 {
+    font-size: 0.8rem;
+  }
+  .about-text2 p {
+    font-size: 0.6rem;
+  }
+  .video-part {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 650px) {
+  .home-first {
+    /* background-size: contain;
+    height: 100%; */
+  }
+  .first-text {
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
+  .first-text h3 {
+    font-size: 2rem;
+  }
+  .first-text p {
+    padding-right: 2rem;
+    font-size: 3rem;
+  }
+  .partners {
+    display: flex;
+    flex-direction: column;
+  }
+  .partners-first {
+    padding-left: 2rem;
+  }
+  .partners-second {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .ddd {
+    width: 7rem;
+  }
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+  .about-img {
+    flex-direction: column;
+    padding-left: 2rem;
+    margin-right: 2rem;
+  }
+  .about-area {
+    width: 100%;
+  }
+  .about-text2 {
+    top: 20rem;
+  }
+  .video-area h3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .empower {
+    padding: 3rem 2rem;
+  }
+  .empower-one {
+    display: flex;
+    flex-direction: column;
+  }
+  .empower-two {
+    display: flex;
+    flex-direction: column;
+  }
+  .services-black {
+    padding: 4rem 2rem;
+  }
+  .services-text h3 {
+    padding-right: 2rem;
+  }
+  .area-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .area-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .quotation-area {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .quotation-area h3 {
+    font-size: 2.2rem;
+  }
+  .project-home {
+    padding: 2rem 2rem;
+  }
+  .hpro {
+    display: flex;
+    flex-direction: column;
+  }
+  .prooo {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-text {
+    padding: 2rem;
+  }
+  .team-all {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .text-area2 {
+    top: 6.5rem;
+  }
+  .testimony-area {
+    padding: 3rem 2rem;
+  }
+  .testimonies {
+    display: flex;
+    flex-direction: column;
+  }
+  .testi-one h3 {
+    padding-right: 0;
+  }
+  .testi-two {
+    padding-left: 0;
+  }
+  .career {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .career-text h3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .img-mix {
+    display: flex;
+    flex-direction: column;
+  }
+  .mix-text {
+    width: 100%;
+    height: 18.5rem;
+  }
+  .mix-text h3 {
+    margin-bottom: 5rem;
+    padding-right: 2.5rem;
+  }
+
+  .mix-only211 h3 {
+    margin-bottom: 2.5rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+  }
+  .mix-only211 p {
+    font-size: 0.72rem;
+  }
+  .img-only {
+    width: 100%;
+    height: 100%;
+  }
+  .img-only img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .mix-only2 img {
+    width: 100%;
+  }
+  .mix-only1 h3 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .img-only img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .cvcv {
+    /* padding-top: 0.8rem; */
+    width: 100%;
+  }
+  .mix-only1 {
+    padding: 0;
+  }
+  .mix-only21 {
+    width: 100%;
+  }
+  .mix-only212 img {
+    width: 100%;
+  }
+  .apply-area {
+    display: flex;
+    flex-direction: column;
+  }
+  .faq-area {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .last-form {
+    padding: 2rem;
+  }
+  .form-text h3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .form-grid1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-all {
+    gap: 2rem;
+  }
+  .footer-first {
+    margin-left: 1.5rem;
+  }
+  .footer-flex {
+    gap: 1rem;
+    margin-right: 2rem;
+  }
+  .site-logo {
+    margin-left: 2rem;
+  }
+  .about-first {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .image-about {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .vision-area {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .vision-text {
+    padding: 2rem;
+  }
+  .service-text p {
+    padding: 2rem;
+  }
+  .career2 {
+    padding: 2rem;
+  }
+  .role-flex {
+    gap: 1rem;
+  }
+  .unleash-text h3 {
+    padding: 0.5rem 0;
+  }
+  .unleash-text p {
+    padding: 0.5rem 0;
+  }
+  .unleashf-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .unleashf-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .iggg {
+    width: 3.5rem;
+  }
+  .iggg img {
+    width: 100%;
+  }
+  .contact-first {
+    padding-left: 2rem;
+  }
+  .contact-area h4 {
+    padding-left: 2rem;
+  }
+  .form-visit h4 {
+    padding-left: 2rem;
+  }
+  .visit-first {
+    padding: 2rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .footer-all {
+    flex-direction: column;
+  }
+  .services-prices {
+    padding: 2rem;
+  }
+  .footer-second {
+    padding: 2rem;
+  }
+  label {
+    width: 13rem;
+  }
+  input,
+  textarea {
+    width: 13rem;
+  }
+  .form--input {
+    width: 13rem;
+  }
+  .bbb {
+    width: 13rem;
+  }
+  .bbb button {
+    width: 13rem;
+  }
+  .isjd {
+    width: 13rem;
+  }
+  .isjd img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .text-area2 {
+    top: 2.5rem;
+  }
+  .text-area2 h3 {
+    font-size: 0.75rem;
+  }
+  .about-text2 {
+    top: 7rem;
+  }
+  .video-area {
+    /* padding: 2rem; */
+  }
+  .video-area h3 {
+    font-size: 2rem;
+  }
+  .about-text h3 {
+    font-size: 1.8rem;
+  }
+  .text-area2 p {
+    font-size: 0.55rem;
+  }
 }

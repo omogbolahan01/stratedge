@@ -11,14 +11,14 @@ export default function Service() {
         </p>
       </div>
       <div className="services-prices">
-        <div>
+        <div className="price-image">
           {" "}
           <img src="/images/Rectangle 35.png" alt="" />
         </div>
-        <div>
+        <div className="price-image">
           <img src="/images/Rectangle 36.png" alt="" />
         </div>
-        <div>
+        <div className="price-image">
           {" "}
           <img src="/images/Rectangle 37.png" alt="" />
         </div>

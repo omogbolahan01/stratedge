@@ -446,11 +446,13 @@ export default function Home() {
                 their business
               </p>
             </div>
-            <img src="/images/image 18 (1).png" alt="" />
+            <div className="isjd">
+              <img src="/images/image 18 (1).png" alt="" />
+            </div>
           </div>
           <div className="get-two">
-            <h3>Get in touch</h3>
-            <p>
+            <h3 className="my-header">Get in touch</h3>
+            <p className="my-header">
               Tell us a little about yourself and we'll connect you with a
               Nightfall expert who can share more about the product and answer
               any questions you have.

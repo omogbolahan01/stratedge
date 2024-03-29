@@ -88,3 +88,25 @@ body {
   font-size: 0.85rem;
   font-weight: 400;
 }
+@media screen and (max-width: 1000px) {
+  .text-swiper {
+    padding: 1rem 1rem;
+  }
+  .star-img {
+    width: 0.5rem;
+  }
+  .swiper-wrapper p {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .swiper-slide {
+    width: 100%;
+  }
+  .swiper-slide .swiper-slide-active {
+    width: 100%;
+  }
+  .swiper {
+    margin: 0;
+  }
+}

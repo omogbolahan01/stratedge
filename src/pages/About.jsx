@@ -24,8 +24,12 @@ export default function About() {
       </div>
       <div className="image-about">
         <div className="iabout">
-          <img src="/images/Rectangle 31.png" alt="" />
-          <img src="/images/Rectangle 32.png" alt="" />
+          <div className="iiii">
+            <img src="/images/Rectangle 31.png" alt="" />
+          </div>
+          <div className="iiii">
+            <img src="/images/Rectangle 32.png" alt="" />
+          </div>
         </div>
         <div className="iiabout">
           <h4 className="my-header">OUR MISSION</h4>
