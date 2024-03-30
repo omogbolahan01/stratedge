@@ -1548,10 +1548,6 @@ textarea {
   }
 }
 @media screen and (max-width: 650px) {
-  .home-first {
-    /* background-size: contain;
-    height: 100%; */
-  }
   .first-text {
     padding-top: 2rem;
     padding-left: 2rem;
@@ -1648,7 +1644,7 @@ textarea {
     padding-right: 2rem;
   }
   .text-area2 {
-    top: 6.5rem;
+    top: 22.5rem;
   }
   .testimony-area {
     padding: 3rem 2rem;
@@ -1668,8 +1664,8 @@ textarea {
     padding-right: 2rem;
   }
   .career-text h3 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0;
+    padding-right: 0;
   }
   .img-mix {
     display: flex;
@@ -1817,6 +1813,55 @@ textarea {
   }
   .visit-first {
     padding: 2rem;
+  }
+  .team-1 {
+    flex-direction: column;
+  }
+  .team-2 {
+    flex-direction: column;
+  }
+  .team-image {
+    width: 100%;
+  }
+  .isjd {
+    width: 15rem;
+  }
+  .isjd img {
+    width: 100%;
+    object-fit: contain;
+  }
+  label {
+    width: 16rem;
+  }
+  input,
+  textarea {
+    width: 16rem;
+  }
+  .form--input {
+    width: 16rem;
+  }
+  .bbb {
+    width: 16rem;
+  }
+  .bbb button {
+    width: 16rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about-text2 {
+    top: 15rem;
+  }
+  .footer-all {
+    flex-direction: column;
+  }
+  .services-prices {
+    padding: 2rem;
+  }
+  .footer-second {
+    padding: 2rem;
+  }
+  .team--j {
+    padding-left: 2rem;
   }
 }
 @media screen and (max-width: 300px) {
