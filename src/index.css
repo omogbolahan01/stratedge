@@ -1644,7 +1644,7 @@ textarea {
     padding-right: 2rem;
   }
   .text-area2 {
-    top: 22.5rem;
+    top: 27rem;
   }
   .testimony-area {
     padding: 3rem 2rem;
@@ -1816,12 +1816,14 @@ textarea {
   }
   .team-1 {
     flex-direction: column;
+    gap: 2rem;
   }
   .team-2 {
     flex-direction: column;
   }
   .team-image {
     width: 100%;
+    padding-bottom: 2rem;
   }
   .isjd {
     width: 15rem;
@@ -1850,6 +1852,9 @@ textarea {
 @media screen and (max-width: 400px) {
   .about-text2 {
     top: 15rem;
+  }
+  .text-area2 {
+    top: 22.5rem;
   }
   .footer-all {
     flex-direction: column;
